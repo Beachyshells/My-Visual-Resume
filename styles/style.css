@@ -1,27 +1,40 @@
-/*<!--these are my fonts-- > 
-.playfair-display-<uniquifier > {
+<!--these are my fonts-- > .playfair-paragraph-font {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: medium;
   font-style: normal;
 }
 
-.poppins-medium {
+.poppins-medium-font {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.poppins-bold {
+.poppins-bold-font {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-}*/
-
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
 }
+/*these are my headings*/
+h1 {
+}
+h2 {
+}
+h3 {
+}
+/*these are my paragraphs*/
+
 p {
   font-family: "Playfair Display", serif;
+}
+
+/*these are my div-containers*/
+
+.hero {
+  background-color: aliceblue;
+}
+
+.footer {
+  padding: 20px;
 }
