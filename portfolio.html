@@ -70,16 +70,61 @@
         </div>
       </div>
     </nav>
-    <h1>My Projects</h1>
-    <p>Here you can find a showcase of my work.</p>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <img src="project-image.jpg" alt="Project Image" />
+    <h1 class="text-center">My Projects</h1>
+    <p class="text-center">Here you can find a showcase of my work.</p>
+    <div class="d-flex container mt-5">
+      <div class="row gap-3">
+        <div class="col p-5 background-color">
+          <img
+            src="images/portfolio-weather-app.png"
+            alt="Project Image"
+            class="img-fluid rounded shadow w-100"
+          />
         </div>
         <div class="col">
-          <h2>Project Title</h2>
-          <p>Project description goes here.</p>
+          <h2>Weather App</h2>
+          <p>
+            Real-time
+            <span
+              class="hover-detail"
+              data-tooltip-content="Beachyshells Weather Forecast - A comprehensive application that fetches real-time weather data from SheCodes API, displays current conditions with animated icons, and provides accurate 5-day forecasting with timezone-aware updates."
+              >Weather App</span
+            >
+            featuring current conditions and 5-day forecasts. Built with
+            <span
+              class="hover-detail-alt"
+              data-tooltip-content="Modern ES6+ JavaScript built without frameworks. Demonstrates core language mastery: asynchronous programming, DOM manipulation, event handling, and array methods. Shows ability to create complex applications using pure JavaScript fundamentals."
+              >Vanilla JavaScript</span
+            >,<span
+              class="hover-detail"
+              data-tooltip-content="Custom API integration featuring async request handling, complex data parsing, error validation, and secure authentication. Transforms raw weather data into dynamic user displays."
+            >
+              API integration</span
+            >
+            , and
+            <span
+              class="hover-detail-alt"
+              data-tooltip-content="Custom visual indicators with conditional styling based on data values. Built color-coded humidity alerts (green for optimal 30-60%, red for unhealthy levels) and wind speed warnings with real-time CSS class manipulation. Demonstrates UI/UX design thinking and programmatic styling."
+              >dynamic data visualization</span
+            >. Includes
+            <span
+              class="hover-detail"
+              data-tooltip-content="Real-time timezone conversion with automatic clock updates every minute. Demonstrates Date API mastery, setInterval timers, and dynamic DOM manipulation for continuous data refreshing."
+              >live time updates</span
+            >
+            and
+            <span
+              class="hover-detail-alt"
+              data-tooltip-content="Smart visual feedback system with conditional styling and real-time alerts. Features color-coded humidity indicators (green for healthy 30-60%, red for concerning levels) and wind speed warnings. Demonstrates data interpretation, conditional logic, and user-centered design thinking."
+              >intelligent weather indicators.</span
+            >
+          </p>
+          <a
+            href="https://vanilla-take-two.netlify.app/"
+            class="btn"
+            target="_blank"
+            >View Project</a
+          >
         </div>
       </div>
     </div>
