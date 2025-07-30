@@ -1,4 +1,5 @@
-<!--these are my fonts-- > .playfair-paragraph-font {
+/*these are my fonts*/
+.playfair-paragraph-font {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: medium;
@@ -16,17 +17,12 @@
   font-weight: 700;
   font-style: normal;
 }
-/*these are my headings*/
-h1 {
-}
-h2 {
-}
-h3 {
-}
+
 /*these are my paragraphs*/
 
 p {
-  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 /*these are my div-containers*/
@@ -35,6 +31,15 @@ p {
   background-color: aliceblue;
 }
 
+.btn {
+  max-width: 300px;
+  background-color: pink;
+}
+.btn:hover {
+  background-color: darkgrey;
+}
+
+/*these are my footer styles*/
 .footer {
   padding: 20px;
 }
