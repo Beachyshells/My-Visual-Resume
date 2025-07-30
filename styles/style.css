@@ -1,7 +1,7 @@
 /*these are my fonts*/
 .playfair-paragraph-font {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+
   font-weight: medium;
   font-style: normal;
 }
@@ -18,17 +18,27 @@
   font-style: normal;
 }
 
-/*these are my paragraphs*/
-
-p {
-  line-height: 1.5;
-  font-size: 1.2rem;
+.sm-font {
+  font-size: 14px;
 }
 
 /*these are my div-containers*/
 
 .hero {
   background-color: aliceblue;
+}
+
+/*these are my headings*/
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 .btn {
