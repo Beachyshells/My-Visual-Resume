@@ -1,7 +1,6 @@
 /*these are my fonts*/
 .playfair-paragraph-font {
   font-family: "Playfair Display", serif;
-
   font-weight: medium;
   font-style: normal;
 }
@@ -19,9 +18,11 @@
 }
 
 .sm-font {
-  font-size: 14px;
+  font-size: 0.9rem;
 }
-
+.md-font {
+  font-size: 2rem;
+}
 /*these are my div-containers*/
 
 .hero {
@@ -47,20 +48,25 @@ h3 {
   border: none;
   border-radius: 4px;
   letter-spacing: 0.8px;
-  box-shadow: 0 4px 16px rgba(190, 24, 93, 0.12);
-  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 8px 25px rgba(190, 24, 93, 0.25);
+  transition: all 150ms ease-in-out;
   padding: 10px;
   font-family: "Poppins", sans-serif;
 }
 .btn:hover {
   background: linear-gradient(90deg, #fbc2eb 0%, #fff0f6 100%);
-  transform: translateY(-2px) scale(1.04);
+  transform: translateY(-4px) scale(0.9);
+  transition: all 150ms ease-in-out;
+  box-shadow: 0 4px 16px rgba(190, 24, 93, 0.12);
 }
 
 .background-color {
-  background-color: #fdf2f8; /* Soft blush pink */
+  background-color: #fdf2f8;
 }
 
+.bg-grey {
+  background-color: #e9ebee;
+}
 /*these are my footer styles*/
 .footer {
   padding: 20px;
@@ -92,8 +98,7 @@ h3 {
 }
 
 .hover-detail-alt {
-  /* Same properties as .hover-detail */
-  color: #ec91b5; /* Rich wine-pink */
+  color: #ec91b5;
   position: relative;
   cursor: help;
   border-bottom: 1px dotted #831843;
@@ -118,4 +123,41 @@ h3 {
 .line-spacing {
   /* Adjust line height for better readability */
   line-height: 1.6;
+}
+
+.about-paragraph::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+
+  line-height: 1;
+  padding-right: 4px;
+  vertical-align: baseline;
+}
+
+.link-color {
+  color: #ea2b7b;
+  text-decoration: none;
+}
+
+.pulse-title {
+  display: block;
+  animation: pulse 10s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5px) translateY(0.75px);
+    color: #ebadc7;
+    text-shadow: 0 0 2px rgba(234, 43, 123, 0.3px);
+  }
+  50% {
+    transform: scale(0.8px) translateY(-0.5px);
+    color: #e16fdf;
+    text-shadow: 0 0 5px rgba(244, 114, 182, 0.3px);
+  }
+  100% {
+    transform: scale(0.5px) translateY(0.75px);
+    color: #ebadc7;
+    text-shadow: 0 0 2px rgba(234, 43, 123, 0.3px);
+  }
 }
