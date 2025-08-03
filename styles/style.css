@@ -64,6 +64,14 @@ h3 {
   background-color: #fdf2f8;
 }
 
+.bg-pink {
+  background: linear-gradient(90deg, #fff0f6 0%, #fbc2eb 100%);
+  box-shadow: 0 8px 25px rgba(190, 24, 93, 0.25);
+  letter-spacing: 0.8px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 .bg-grey {
   background-color: #e9ebee;
 }
