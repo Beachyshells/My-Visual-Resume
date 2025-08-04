@@ -75,6 +75,13 @@ h3 {
 .bg-grey {
   background-color: #e9ebee;
 }
+
+.profile-pic {
+  width: 50%;
+  justify-content: center;
+  border: 5px solid #f8f9fa;
+}
+
 /*these are my footer styles*/
 .footer {
   padding: 20px;
