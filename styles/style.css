@@ -31,7 +31,7 @@
 
 /*these are my headings*/
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -40,6 +40,12 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 .btn {
@@ -76,12 +82,27 @@ h3 {
   background-color: #e9ebee;
 }
 
-.profile-pic {
-  width: 50%;
-  justify-content: center;
-  border: 5px solid #f8f9fa;
+.job-description {
+  padding: 20px;
+  border-radius: 5px;
+  border: 5px solid #fff0f6;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
 }
-
+.profile-pic {
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  border: 5px solid #f8f9fa;
+  border-radius: 6%;
+}
+@media (max-width: 748px) {
+  .profile-pic {
+    margin-bottom: 20px;
+    width: 50%;
+    height: auto;
+  }
+}
 /*these are my footer styles*/
 .footer {
   padding: 20px;
