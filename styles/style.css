@@ -102,6 +102,9 @@ h3 {
     width: 50%;
     height: auto;
   }
+  .container {
+    margin: 20px auto;
+  }
 }
 /*these are my footer styles*/
 .footer {
