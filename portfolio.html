@@ -39,318 +39,320 @@
     <title>My Portfolio-Projects</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">🐞</a>
-        <button
-          class="navbar-toggler pulse-title"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
+    <div class="container-content container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">🐞</a>
+          <button
+            class="navbar-toggler pulse-title"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text-center">My Projects</h1>
+      <p class="text-center">Here you can find a showcase of my work.</p>
+      <div class="d-flex mt-5">
+        <div class="row gap-3">
+          <div class="col p-3 background-color">
+            <img
+              src="images/portfolio-weather-app.png"
+              alt="Project Image"
+              class="img-fluid rounded shadow w-100 mt-5"
+            />
+          </div>
+          <div class="col p-3">
+            <h2 mt-5>Weather App</h2>
+            <p class="sm-font pt-4">
+              Real-time
+              <span
+                class="hover-detail"
+                data-tooltip-content="Beachyshells Weather Forecast - A comprehensive application that fetches real-time weather data from SheCodes API, displays current conditions with animated icons, and provides accurate 5-day forecasting with timezone-aware updates."
+                >Weather App</span
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio Projects</a>
-            </li>
-          </ul>
+              featuring current conditions and 5-day forecasts. Built with
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Modern ES6+ JavaScript built without frameworks. Demonstrates core language mastery: asynchronous programming, DOM manipulation, event handling, and array methods. Shows ability to create complex applications using pure JavaScript fundamentals."
+                >Vanilla JavaScript</span
+              >,<span
+                class="hover-detail"
+                data-tooltip-content="Custom API integration featuring async request handling, complex data parsing, error validation, and secure authentication. Transforms raw weather data into dynamic user displays."
+              >
+                API integration</span
+              >
+              , and
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Custom visual indicators with conditional styling based on data values. Built color-coded humidity alerts (green for optimal 30-60%, red for unhealthy levels) and wind speed warnings with real-time CSS class manipulation. Demonstrates UI/UX design thinking and programmatic styling."
+                >dynamic data visualization</span
+              >. Includes
+              <span
+                class="hover-detail"
+                data-tooltip-content="Real-time timezone conversion with automatic clock updates every minute. Demonstrates Date API mastery, setInterval timers, and dynamic DOM manipulation for continuous data refreshing."
+                >live time updates</span
+              >
+              and
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Smart visual feedback system with conditional styling and real-time alerts. Features color-coded humidity indicators (green for healthy 30-60%, red for concerning levels) and wind speed warnings. Demonstrates data interpretation, conditional logic, and user-centered design thinking."
+                >intelligent weather indicators.</span
+              >
+            </p>
+            <a
+              href="https://vanilla-take-two.netlify.app/"
+              class="btn"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
         </div>
       </div>
-    </nav>
-    <h1 class="text-center">My Projects</h1>
-    <p class="text-center">Here you can find a showcase of my work.</p>
-    <div class="d-flex container mt-5">
-      <div class="row gap-3">
-        <div class="col p-3 background-color">
-          <img
-            src="images/portfolio-weather-app.png"
-            alt="Project Image"
-            class="img-fluid rounded shadow w-100 mt-5"
-          />
-        </div>
-        <div class="col p-3">
-          <h2 mt-5>Weather App</h2>
-          <p class="sm-font pt-4">
-            Real-time
-            <span
-              class="hover-detail"
-              data-tooltip-content="Beachyshells Weather Forecast - A comprehensive application that fetches real-time weather data from SheCodes API, displays current conditions with animated icons, and provides accurate 5-day forecasting with timezone-aware updates."
-              >Weather App</span
-            >
-            featuring current conditions and 5-day forecasts. Built with
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Modern ES6+ JavaScript built without frameworks. Demonstrates core language mastery: asynchronous programming, DOM manipulation, event handling, and array methods. Shows ability to create complex applications using pure JavaScript fundamentals."
-              >Vanilla JavaScript</span
-            >,<span
-              class="hover-detail"
-              data-tooltip-content="Custom API integration featuring async request handling, complex data parsing, error validation, and secure authentication. Transforms raw weather data into dynamic user displays."
-            >
-              API integration</span
-            >
-            , and
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Custom visual indicators with conditional styling based on data values. Built color-coded humidity alerts (green for optimal 30-60%, red for unhealthy levels) and wind speed warnings with real-time CSS class manipulation. Demonstrates UI/UX design thinking and programmatic styling."
-              >dynamic data visualization</span
-            >. Includes
-            <span
-              class="hover-detail"
-              data-tooltip-content="Real-time timezone conversion with automatic clock updates every minute. Demonstrates Date API mastery, setInterval timers, and dynamic DOM manipulation for continuous data refreshing."
-              >live time updates</span
-            >
-            and
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Smart visual feedback system with conditional styling and real-time alerts. Features color-coded humidity indicators (green for healthy 30-60%, red for concerning levels) and wind speed warnings. Demonstrates data interpretation, conditional logic, and user-centered design thinking."
-              >intelligent weather indicators.</span
-            >
-          </p>
-          <a
-            href="https://vanilla-take-two.netlify.app/"
-            class="btn"
-            target="_blank"
-            >View Project</a
-          >
-        </div>
-      </div>
-    </div>
 
-    <div class="container mt-5">
-      <div class="row gap-3">
-        <div class="col p-3">
-          <h2 class="mt-5">World Clock App</h2>
-          <p class="sm-font pt-4">
-            Modern
-            <span
-              class="hover-detail"
-              data-tooltip-content="Beachyshells Global Temporal Monitoring System – An interactive world clock that delivers real-time time zone conversion, global city selection, and instant access to current time and date for any major city. Experience a visually engaging, animated digital display designed for clarity and ease of use."
-              >World Clock app</span
+      <div class="mt-5">
+        <div class="row gap-3">
+          <div class="col p-3">
+            <h2 class="mt-5">World Clock App</h2>
+            <p class="sm-font pt-4">
+              Modern
+              <span
+                class="hover-detail"
+                data-tooltip-content="Beachyshells Global Temporal Monitoring System – An interactive world clock that delivers real-time time zone conversion, global city selection, and instant access to current time and date for any major city. Experience a visually engaging, animated digital display designed for clarity and ease of use."
+                >World Clock app</span
+              >
+              with real-time time zone conversion, global city selection, and
+              animated digital display. Built with
+              <span
+                class="hover-detail"
+                data-tooltip-content="Integrated Moment.js and Moment Timezone for advanced time calculations, formatting, and seamless time zone conversions. Demonstrates library integration mastery: time zone calculations, date formatting, and real-time updates. Shows ability to leverage external libraries for complex temporal functionality."
+                >Moment.js</span
+              >,
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Vanilla JavaScript for dynamic DOM updates, event handling, and modular code structure. Demonstrates core language skills: DOM manipulation, event listeners, setInterval timers, and dynamic content updates. Shows ability to create interactive time displays using pure JavaScript fundamentals."
+                >vanilla JavaScript</span
+              >, and
+              <span
+                class="hover-detail"
+                data-tooltip-content="Responsive CSS and creative UI/UX design for a tech-inspired, accessible interface. Demonstrates advanced CSS techniques: responsive layouts, animated displays, and modern UI design patterns. Shows ability to create visually engaging temporal interfaces across all devices."
+                >custom CSS</span
+              >. Features include a
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Scrolling marquee for city/date, global ticker for live times, and animated clock display for enhanced user experience. Demonstrates animation implementation: CSS keyframes, scrolling effects, and dynamic visual feedback. Shows ability to create engaging time-based animations for improved user experience."
+                >scrolling marquee</span
+              >,
+              <span
+                class="hover-detail"
+                data-tooltip-content="Dropdown city selection with automatic local time detection and real-time updates. Demonstrates interactive functionality: user input handling, conditional logic, and real-time data processing. Shows ability to create intuitive global time selection interfaces."
+                >dynamic city selection</span
+              >, and
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Mobile-friendly layout, accessibility, and cross-browser compatibility. Demonstrates responsive design mastery: mobile optimization, accessibility standards, and cross-platform compatibility. Shows ability to create universally accessible temporal applications."
+                >responsive design</span
+              >.
+            </p>
+            <a
+              href="https://time-around-the-globe.netlify.app/"
+              class="btn"
+              target="_blank"
+              >View Project</a
             >
-            with real-time time zone conversion, global city selection, and
-            animated digital display. Built with
-            <span
-              class="hover-detail"
-              data-tooltip-content="Integrated Moment.js and Moment Timezone for advanced time calculations, formatting, and seamless time zone conversions. Demonstrates library integration mastery: time zone calculations, date formatting, and real-time updates. Shows ability to leverage external libraries for complex temporal functionality."
-              >Moment.js</span
-            >,
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Vanilla JavaScript for dynamic DOM updates, event handling, and modular code structure. Demonstrates core language skills: DOM manipulation, event listeners, setInterval timers, and dynamic content updates. Shows ability to create interactive time displays using pure JavaScript fundamentals."
-              >vanilla JavaScript</span
-            >, and
-            <span
-              class="hover-detail"
-              data-tooltip-content="Responsive CSS and creative UI/UX design for a tech-inspired, accessible interface. Demonstrates advanced CSS techniques: responsive layouts, animated displays, and modern UI design patterns. Shows ability to create visually engaging temporal interfaces across all devices."
-              >custom CSS</span
-            >. Features include a
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Scrolling marquee for city/date, global ticker for live times, and animated clock display for enhanced user experience. Demonstrates animation implementation: CSS keyframes, scrolling effects, and dynamic visual feedback. Shows ability to create engaging time-based animations for improved user experience."
-              >scrolling marquee</span
-            >,
-            <span
-              class="hover-detail"
-              data-tooltip-content="Dropdown city selection with automatic local time detection and real-time updates. Demonstrates interactive functionality: user input handling, conditional logic, and real-time data processing. Shows ability to create intuitive global time selection interfaces."
-              >dynamic city selection</span
-            >, and
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Mobile-friendly layout, accessibility, and cross-browser compatibility. Demonstrates responsive design mastery: mobile optimization, accessibility standards, and cross-platform compatibility. Shows ability to create universally accessible temporal applications."
-              >responsive design</span
-            >.
-          </p>
-          <a
-            href="https://time-around-the-globe.netlify.app/"
-            class="btn"
-            target="_blank"
-            >View Project</a
-          >
-        </div>
-        <div class="col p-3 background-color">
-          <img
-            src="images/portfolio-world-clock-app.png"
-            alt="Project Image"
-            class="img-fluid rounded shadow w-100 mt-5"
-          />
+          </div>
+          <div class="col p-3 background-color">
+            <img
+              src="images/portfolio-world-clock-app.png"
+              alt="Project Image"
+              class="img-fluid rounded shadow w-100 mt-5"
+            />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container mt-5">
-      <div class="row gap-3">
-        <div class="col p-3 background-color">
-          <img
-            src="images/portfolio-poem-generator-app.png"
-            alt="Project Image"
-            class="img-fluid rounded shadow w-100 mt-5"
-          />
-        </div>
-        <div class="col">
-          <h2 class="mt-5">Poem Generating App</h2>
-          <p class="sm-font mt-4">
-            An innovative
-            <span
-              class="hover-detail"
-              data-tooltip-content=" Beachyshells Lyrical Loomer- Instantly create original, coding-inspired poems using AI and user input, with a playful, interactive interface."
-              >Poem Generating app</span
+      <div class="mt-5">
+        <div class="row gap-3">
+          <div class="col p-3 background-color">
+            <img
+              src="images/portfolio-poem-generator-app.png"
+              alt="Project Image"
+              class="img-fluid rounded shadow w-100 mt-5"
+            />
+          </div>
+          <div class="col">
+            <h2 class="mt-5">Poem Generating App</h2>
+            <p class="sm-font mt-4">
+              An innovative
+              <span
+                class="hover-detail"
+                data-tooltip-content=" Beachyshells Lyrical Loomer- Instantly create original, coding-inspired poems using AI and user input, with a playful, interactive interface."
+                >Poem Generating app</span
+              >
+              that utilizes advanced natural language processing techniques to
+              craft personalized poetry. Built with
+              <span
+                class="hover-detail"
+                data-tooltip-content="Integrated SheCodes AI to generate creative, coding-themed poems from user input, demonstrating advanced prompt engineering and AI-powered content generation. Demonstrates AI integration skills: prompt engineering, API authentication, and natural language processing. Shows ability to harness artificial intelligence for creative content generation."
+                >SheCodes AI</span
+              >,
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Built interactive features and dynamic poem display using vanilla JavaScript, including user input handling, API requests, and real-time DOM updates for a seamless user experience. Demonstrates core JavaScript mastery: asynchronous programming, DOM manipulation, user input validation, and real-time content updates. Shows ability to create interactive creative applications using pure JavaScript fundamentals."
+                >vanilla JavaScript</span
+              >, and
+              <span
+                class="hover-detail"
+                data-tooltip-content="Designed a playful, responsive interface with custom CSS, featuring a sticky-note theme, vibrant color palette, and creative layout for an engaging user experience across devices. Demonstrates creative CSS techniques: thematic design implementation, color theory application, and responsive layout design. Shows ability to create visually engaging creative interfaces with unique artistic flair."
+                >custom CSS</span
+              >. Features include
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Implements real-time poem display using asynchronous API calls and typewriter animation, providing instant feedback and an engaging user experience. Demonstrates animation implementation: typewriter effects, asynchronous content loading, and real-time visual feedback. Shows ability to create engaging content generation experiences with dynamic visual effects."
+                >real-time text generation</span
+              >,
+              <span
+                class="hover-detail"
+                data-tooltip-content="Created engaging, interactive UI elements—including animated buttons, playful input fields, and dynamic poem reveal—to enhance user interaction and make the creative process fun and intuitive. Demonstrates UI/UX design skills: interactive element creation, user engagement strategies, and intuitive interface design. Shows ability to make creative processes accessible and enjoyable through thoughtful interaction design."
+                >interactive UI elements</span
+              >, and
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Implemented foundational mobile responsiveness using custom CSS and media queries. As my first project, it provided valuable experience in adapting layouts for different devices and highlighted areas for future improvement in advanced responsive design. Demonstrates responsive design foundations: media queries, flexible layouts, and mobile-first thinking. Shows commitment to continuous learning and improvement in web development practices."
+                >mobile responsiveness</span
+              >.
+            </p>
+            <a
+              href="https://golden-tarsier-6c4dd4.netlify.app/"
+              class="btn"
+              target="_blank"
+              >View Project</a
             >
-            that utilizes advanced natural language processing techniques to
-            craft personalized poetry. Built with
-            <span
-              class="hover-detail"
-              data-tooltip-content="Integrated SheCodes AI to generate creative, coding-themed poems from user input, demonstrating advanced prompt engineering and AI-powered content generation. Demonstrates AI integration skills: prompt engineering, API authentication, and natural language processing. Shows ability to harness artificial intelligence for creative content generation."
-              >SheCodes AI</span
-            >,
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Built interactive features and dynamic poem display using vanilla JavaScript, including user input handling, API requests, and real-time DOM updates for a seamless user experience. Demonstrates core JavaScript mastery: asynchronous programming, DOM manipulation, user input validation, and real-time content updates. Shows ability to create interactive creative applications using pure JavaScript fundamentals."
-              >vanilla JavaScript</span
-            >, and
-            <span
-              class="hover-detail"
-              data-tooltip-content="Designed a playful, responsive interface with custom CSS, featuring a sticky-note theme, vibrant color palette, and creative layout for an engaging user experience across devices. Demonstrates creative CSS techniques: thematic design implementation, color theory application, and responsive layout design. Shows ability to create visually engaging creative interfaces with unique artistic flair."
-              >custom CSS</span
-            >. Features include
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Implements real-time poem display using asynchronous API calls and typewriter animation, providing instant feedback and an engaging user experience. Demonstrates animation implementation: typewriter effects, asynchronous content loading, and real-time visual feedback. Shows ability to create engaging content generation experiences with dynamic visual effects."
-              >real-time text generation</span
-            >,
-            <span
-              class="hover-detail"
-              data-tooltip-content="Created engaging, interactive UI elements—including animated buttons, playful input fields, and dynamic poem reveal—to enhance user interaction and make the creative process fun and intuitive. Demonstrates UI/UX design skills: interactive element creation, user engagement strategies, and intuitive interface design. Shows ability to make creative processes accessible and enjoyable through thoughtful interaction design."
-              >interactive UI elements</span
-            >, and
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Implemented foundational mobile responsiveness using custom CSS and media queries. As my first project, it provided valuable experience in adapting layouts for different devices and highlighted areas for future improvement in advanced responsive design. Demonstrates responsive design foundations: media queries, flexible layouts, and mobile-first thinking. Shows commitment to continuous learning and improvement in web development practices."
-              >mobile responsiveness</span
-            >.
-          </p>
-          <a
-            href="https://golden-tarsier-6c4dd4.netlify.app/"
-            class="btn"
-            target="_blank"
-            >View Project</a
-          >
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container mt-5 mb-5">
-      <div class="row gap-3">
-        <div class="col p-3">
-          <h2 class="mt-5 mb-5">Lotus Meditation Website</h2>
-          <p class="sm-font pt-4">
-            Inspirational
-            <span
-              class="hover-detail"
-              data-tooltip-content="Lotus Meditation – A beautifully crafted wellness website centered around lotus flower symbolism and meditation practices. Features inspirational quotes, meditative music, lotus mantras, and spiritual guidance for inner peace and transformation."
-              >meditation website</span
+      <div class="mt-5 mb-5">
+        <div class="row gap-3">
+          <div class="col p-3">
+            <h2 class="mt-5 mb-5">Lotus Meditation Website</h2>
+            <p class="sm-font pt-4">
+              Inspirational
+              <span
+                class="hover-detail"
+                data-tooltip-content="Lotus Meditation – A beautifully crafted wellness website centered around lotus flower symbolism and meditation practices. Features inspirational quotes, meditative music, lotus mantras, and spiritual guidance for inner peace and transformation."
+                >meditation website</span
+              >
+              celebrating lotus flower symbolism and mindfulness practices.
+              Built with
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Interactive JavaScript features including smooth scrolling navigation, dynamic quote displays, and engaging user interactions. Demonstrates DOM manipulation: event listeners, smooth scrolling effects, dynamic content updates, and interactive animations. Shows ability to create immersive spiritual experiences using pure JavaScript fundamentals."
+                >vanilla JavaScript</span
+              >,
+              <span
+                class="hover-detail"
+                data-tooltip-content="Integrated YouTube API for seamless meditative music playback by Reiki Healing Japan 365. Features embedded video content and audio-visual meditation experiences. Demonstrates API integration mastery: multimedia embedding, external service connectivity, and iframe optimization. Shows ability to enhance user engagement through multimedia integration."
+                >YouTube API integration</span
+              >, and
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Serene design featuring lotus imagery, calming color palettes, and spiritual aesthetics. Utilizes responsive design principles with CSS Grid and Flexbox. Demonstrates advanced CSS techniques: responsive layouts, thematic color schemes, image optimization, and spiritual design aesthetics. Shows ability to create wellness-focused visual experiences across all devices."
+                >zen-inspired CSS design</span
+              >. Features include
+              <span
+                class="hover-detail"
+                data-tooltip-content="Curated collection of inspirational quotes and lotus-themed messaging designed to uplift and motivate. Includes transformational quotes about resilience, growth, and spiritual awakening. Demonstrates content curation skills: motivational messaging, spiritual communication, and wellness-focused copywriting. Shows ability to create meaningful user connections through inspirational content."
+                >inspirational quote collections</span
+              >,
+              <span
+                class="hover-detail-alt"
+                data-tooltip-content="Educational content about lotus flower symbolism, lotus pose yoga instructions, and sacred mantras including 'Om Mani Padme Hum.' Combines spiritual wisdom with practical meditation guidance. Demonstrates research capabilities: cultural sensitivity, educational content development, and wellness programming expertise. Shows ability to bridge traditional wisdom with modern web applications."
+                >lotus symbolism education</span
+              >, and
+              <span
+                class="hover-detail"
+                data-tooltip-content="Lottie animations and interactive visual elements that enhance the meditative experience. Features smooth transitions, animated lotus graphics, and engaging UI elements. Demonstrates animation integration: visual storytelling, user experience enhancement, and interactive design implementation. Shows ability to create engaging spiritual interfaces through dynamic visual elements."
+                >animated spiritual elements</span
+              >.
+            </p>
+            <a
+              href="https://meditation-inspiration.netlify.app/"
+              class="btn"
+              target="_blank"
+              >View Project</a
             >
-            celebrating lotus flower symbolism and mindfulness practices. Built
-            with
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Interactive JavaScript features including smooth scrolling navigation, dynamic quote displays, and engaging user interactions. Demonstrates DOM manipulation: event listeners, smooth scrolling effects, dynamic content updates, and interactive animations. Shows ability to create immersive spiritual experiences using pure JavaScript fundamentals."
-              >vanilla JavaScript</span
-            >,
-            <span
-              class="hover-detail"
-              data-tooltip-content="Integrated YouTube API for seamless meditative music playback by Reiki Healing Japan 365. Features embedded video content and audio-visual meditation experiences. Demonstrates API integration mastery: multimedia embedding, external service connectivity, and iframe optimization. Shows ability to enhance user engagement through multimedia integration."
-              >YouTube API integration</span
-            >, and
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Serene design featuring lotus imagery, calming color palettes, and spiritual aesthetics. Utilizes responsive design principles with CSS Grid and Flexbox. Demonstrates advanced CSS techniques: responsive layouts, thematic color schemes, image optimization, and spiritual design aesthetics. Shows ability to create wellness-focused visual experiences across all devices."
-              >zen-inspired CSS design</span
-            >. Features include
-            <span
-              class="hover-detail"
-              data-tooltip-content="Curated collection of inspirational quotes and lotus-themed messaging designed to uplift and motivate. Includes transformational quotes about resilience, growth, and spiritual awakening. Demonstrates content curation skills: motivational messaging, spiritual communication, and wellness-focused copywriting. Shows ability to create meaningful user connections through inspirational content."
-              >inspirational quote collections</span
-            >,
-            <span
-              class="hover-detail-alt"
-              data-tooltip-content="Educational content about lotus flower symbolism, lotus pose yoga instructions, and sacred mantras including 'Om Mani Padme Hum.' Combines spiritual wisdom with practical meditation guidance. Demonstrates research capabilities: cultural sensitivity, educational content development, and wellness programming expertise. Shows ability to bridge traditional wisdom with modern web applications."
-              >lotus symbolism education</span
-            >, and
-            <span
-              class="hover-detail"
-              data-tooltip-content="Lottie animations and interactive visual elements that enhance the meditative experience. Features smooth transitions, animated lotus graphics, and engaging UI elements. Demonstrates animation integration: visual storytelling, user experience enhancement, and interactive design implementation. Shows ability to create engaging spiritual interfaces through dynamic visual elements."
-              >animated spiritual elements</span
-            >.
-          </p>
-          <a
-            href="https://meditation-inspiration.netlify.app/"
-            class="btn"
-            target="_blank"
-            >View Project</a
-          >
-        </div>
-        <div class="col p-3 background-color">
-          <img
-            src="images/portfolio-lotus-app.png"
-            alt="Project Image"
-            class="img-fluid rounded shadow w-100 mt-5"
-          />
+          </div>
+          <div class="col p-3 background-color">
+            <img
+              src="images/portfolio-lotus-app.png"
+              alt="Project Image"
+              class="img-fluid rounded shadow w-100 mt-5"
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="call-to-action text-center mt-5 mb-5 rounded p-4">
-      <h3>
-        Like what you see? Want to collaborate? Are you hiring? Let's talk!
-      </h3>
-      <p class="text-center playfair-paragraph-font sm-font text-black">
-        Feel free to reach out via email or connect with me on LinkedIn.
-      </p>
-    </div>
+      <div class="call-to-action text-center mt-5 mb-5 rounded p-4">
+        <h3>
+          Like what you see? Want to collaborate? Are you hiring? Let's talk!
+        </h3>
+        <p class="text-center playfair-paragraph-font sm-font text-black">
+          Feel free to reach out via email or connect with me on LinkedIn.
+        </p>
+      </div>
 
-    <div class="footer opacity-50">
-      <div class="contact-info d-flex justify-content-center p-2 gap-3">
-        <h3 class="poppins-medium-font">Contact Me</h3>
-        <a
-          href="mailto:5beachflower5@gmail.com"
-          class="text-black"
-          target="_blank"
-          ><i
-            class="fa-solid fa-envelope fa-bounce fs-2"
-            style="
-              --fa-bounce-duration: 2s;
-              --fa-bounce-delay: 0s;
+      <div class="footer footer-content opacity-50">
+        <div class="contact-info d-flex justify-content-center p-2 gap-3">
+          <h3 class="poppins-medium-font">Contact Me</h3>
+          <a
+            href="mailto:5beachflower5@gmail.com"
+            class="text-black"
+            target="_blank"
+            ><i
+              class="fa-solid fa-envelope fa-bounce fs-2"
+              style="
+                --fa-bounce-duration: 2s;
+                --fa-bounce-delay: 0s;
 
-              --fa-bounce-land-scale-x: 1.2;
-              --fa-bounce-land-scale-y: 0.8;
-              --fa-bounce-rebound: 5px;
-            "
-          ></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/michelle-durham-07559073/"
-          class="text-black"
-          target="_blank"
-        >
-          <i class="fa-brands fa-square-linkedin fs-2"></i
-        ></a>
-        <a
-          href="https://github.com/Beachyshells"
-          class="text-black"
-          target="_blank"
-          ><i class="fa-brands fa-github-square fs-2"></i
-        ></a>
+                --fa-bounce-land-scale-x: 1.2;
+                --fa-bounce-land-scale-y: 0.8;
+                --fa-bounce-rebound: 5px;
+              "
+            ></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/michelle-durham-07559073/"
+            class="text-black"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-linkedin fs-2"></i
+          ></a>
+          <a
+            href="https://github.com/Beachyshells"
+            class="text-black"
+            target="_blank"
+            ><i class="fa-brands fa-github-square fs-2"></i
+          ></a>
+        </div>
       </div>
     </div>
   </body>

@@ -25,13 +25,39 @@
 }
 /*these are my div-containers*/
 
+.container-content {
+  /* Main content wrapper for consistent layout across all pages */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-content {
+  /* Generic content section styling*/
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.section-content p {
+  /* Standardize paragraph styling across all content sections */
+  font-family: "Playfair Display", serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 1.5rem 0.75rem;
+}
+
 .hero {
   background-color: aliceblue;
 }
 
+.hero.section-content {
+  text-align: center;
+}
+
 /*these are my headings*/
 h1 {
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 
 h2 {
@@ -44,7 +70,7 @@ h3 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem !important;
   }
   h2 {
     font-size: 1.75rem;
@@ -109,7 +135,7 @@ h3 {
   }
 }
 /*these are my footer styles*/
-.footer {
+.footer-content {
   padding: 20px;
 }
 
@@ -187,17 +213,17 @@ h3 {
 
 @keyframes pulse {
   0% {
-    transform: scale(0.5) translateY(0.75px);
+    transform: scale(1) translateY(0.75px);
     color: #ebadc7;
     text-shadow: 0 0 2px rgba(234, 43, 123, 0.3px);
   }
   50% {
-    transform: scale(0.8) translateY(-0.5px);
+    transform: scale(2) translateY(-0.5px);
     color: #e16fdf;
     text-shadow: 0 0 5px rgba(244, 114, 182, 0.3px);
   }
   100% {
-    transform: scale(0.5) translateY(0.75px);
+    transform: scale(1) translateY(0.75px);
     color: #ebadc7;
     text-shadow: 0 0 2px rgba(234, 43, 123, 0.3px);
   }
