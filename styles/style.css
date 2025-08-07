@@ -42,6 +42,18 @@ h3 {
   font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
 .btn {
   max-width: 300px;
   background: linear-gradient(90deg, #fff0f6 0%, #fbc2eb 100%);
