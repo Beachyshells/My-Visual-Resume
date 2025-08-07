@@ -206,12 +206,20 @@ h3 {
   text-decoration: none;
 }
 
-.pulse-title {
+/* Reusable animation utility */
+.pulse-animation {
   display: block;
-  animation: pulse 10s ease-in-out infinite;
+  animation: pulse-desktop 10s ease-in-out infinite;
 }
 
-@keyframes pulse {
+@media (max-width: 768px) {
+  .pulse-animation {
+    font-size: 1.2rem !important;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse-desktop {
   0% {
     transform: scale(0.9) translateY(0.75px);
     color: #ebadc7;
