@@ -32,6 +32,10 @@
   flex-direction: column;
 }
 
+.active {
+  color: #ea2b7b !important;
+}
+
 .section-content {
   /* Generic content section styling*/
   margin-top: 3rem;
@@ -137,6 +141,12 @@ h3 {
 /*these are my footer styles*/
 .footer-content {
   padding: 20px;
+}
+
+.footer-links:hover {
+  color: #ea2b7b !important;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 /*these are my hover styles*/
