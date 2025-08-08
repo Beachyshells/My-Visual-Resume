@@ -146,7 +146,7 @@ h3 {
 .footer-links:hover {
   color: #ea2b7b !important;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
+  transition: color 100ms ease-in-out;
 }
 
 /*these are my hover styles*/
