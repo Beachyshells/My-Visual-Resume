@@ -71,6 +71,8 @@ h3 {
 .resume{
   display: flex;
   margin: 0 auto;
+  margin-bottom:auto10px;
+  padding: 10px;;
 }
 
 @media (max-width: 768px) {
