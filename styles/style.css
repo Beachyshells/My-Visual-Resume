@@ -68,6 +68,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+.resume{
+  display: flex;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5rem !important;
